@@ -5,6 +5,15 @@ The PulseMeasure library for Arduino was developed to provide an easy and reliab
 
 It uses timer2 to provide false interrupt supression. Extremely noisy signals are completely recovered without impact on performance. The only requirement is to specify the minimum and maximum frequency of the signal. The signal needs to have a small portion of stability (both high and low) which is calculated from the maximum frequency specified.
 
+Measured quantities for all interrupt modes are:
+• Pulse Count
+• Pulse Period (µs)
+• Pulse Frequency (Hz)
+
+Additional quantities with CHANGE mode:
+• Pulse Width (µs)
+• Pulse Duty Cycle (%)
+
 Open Source License
 
 PulseMeasure is free software. You can redistribute it and/or modify it under the terms of Creative Commons Attribution 3.0 United States License. To view a copy of this license, visit:  http://creativecommons.org/licenses/by/3.0/us/
