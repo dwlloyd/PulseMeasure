@@ -3,7 +3,7 @@ PulseMeasure library for Arduino
 
 The PulseMeasure library for Arduino was developed to provide an easy and reliable way to use external interrupts with pulse outputs from most any sensor or switching contacts. Designed to work with INT0 or INT1 in any interrupt mode (CHANGE, FALLING or RISING). 
 
-It uses timer2 to provide false interrupt supression. Extremely noisy signals can be completely recovered without impact on performance.
+It uses timer2 to provide false interrupt supression. Extremely noisy signals are completely recovered without impact on performance. The only requirement is to specify the minimum and maximum frequency of the signal. The signal needs to have a small portion of stability (both high and low) which is calculated from the maximum frequency specified.
 
 Open Source License
 
