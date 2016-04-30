@@ -7,17 +7,17 @@ It uses timer2 to provide false interrupt supression. Extremely noisy signals ar
 
 Measured quantities for all interrupt modes are:
 
-Pulse Count
+• Pulse Count
 
-Pulse Period (µs)
+• Pulse Period (µs)
 
-Pulse Frequency (Hz)
+• Pulse Frequency (Hz)
 
 Additional quantities with CHANGE mode:
 
-Pulse Width (µs)
+• Pulse Width (µs)
 
-Pulse Duty Cycle (%)
+• Pulse Duty Cycle (%)
 
 Open Source License
 
